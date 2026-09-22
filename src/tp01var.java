@@ -34,6 +34,7 @@ public class tp01var {
         System.out.print("Après permutation x=" + x + " y=" + y);
       */
        
+       /* (QUESTION 5)
        Scanner sc = new Scanner(System.in);
        int a = 0;
        int b = 0;
@@ -44,7 +45,20 @@ public class tp01var {
        b = sc.nextInt();
        c = (a+b)*2;
        System.out.print("(a + b) * 2 =" + c);
+      */
        
+       /* (QUESTION 6)
+       Scanner sc = new Scanner(System.in);
+       int a = 0;
+       System.out.print("Entrez un caractere :");
+       a = sc.nextInt();
+       System.out.println("ASCII décimal : " + a );
+       System.out.println("ASCII hexadecimal : " + Integer.toHexString(a));
+       System.out.println("ASCII hexadecimal : " + Integer.toBinaryString(a));
+       */
+        
+
+
     }
     
 }
