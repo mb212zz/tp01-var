@@ -14,9 +14,11 @@ public class tp01var {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //(QUESTION 2) System.out.println("Ce programme permet\n d'ecrire sur plusieurs lignes");
+        /*(QUESTION 2) 
+        System.out.println("Ce programme permet\n d'ecrire sur plusieurs lignes");
+        */
         
-        
+       /* (QUESTION 4)
         Scanner sc = new Scanner(System.in);
         int x = 0;
         int y = 0;
@@ -30,6 +32,8 @@ public class tp01var {
         x = y;
         y = temp;
         System.out.print("Après permutation x=" + x + " y=" + y);
+      */
+       
     }
     
 }
