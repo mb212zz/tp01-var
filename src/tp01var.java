@@ -34,6 +34,17 @@ public class tp01var {
         System.out.print("Après permutation x=" + x + " y=" + y);
       */
        
+       Scanner sc = new Scanner(System.in);
+       int a = 0;
+       int b = 0;
+       int c = 0;
+       System.out.print("Saisir a :");
+       a = sc.nextInt();
+       System.out.print("Saisir b :");
+       b = sc.nextInt();
+       c = (a+b)*2;
+       System.out.print("(a + b) * 2 =" + c);
+       
     }
     
 }
